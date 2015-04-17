@@ -553,5 +553,5 @@ var customTransitionEnd = whichTransitionEvent();
 // --------------------------------------------------------
 
 $(document).ready(function () {
-   console.log('Fluidbox geladen');
+   console.log('Fluidbox geladen asdfasdf');
 });
