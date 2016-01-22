@@ -1,6 +1,5 @@
 // Gulp Modules
 var gulp = require('gulp'),
-    //iconfont = require('gulp-iconfont'),
     consolidate = require('gulp-consolidate'),
     uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
@@ -8,9 +7,8 @@ var gulp = require('gulp'),
     watch = require('gulp-watch'),
     plumber = require('gulp-plumber'),
     rename = require('gulp-rename'),
-sass = require('gulp-sass');
-    //sourcemaps = require('gulp-sourcemaps'),
-    //favicons = require('gulp-favicons');
+    sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps');
 
 var environment = 'typo3';
 
@@ -26,8 +24,6 @@ switch (environment) {
 }
 
 var jsFilesApp = [
-
-    // Own stuff
     sourcePath + 'js/**/*.js'
 ];
 

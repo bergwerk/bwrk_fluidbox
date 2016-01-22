@@ -1,5 +1,0 @@
-config.tx_extbase {
-    objects {
-        TYPO3\CMS\Fluid\ViewHelpers\ImageViewHelper.className = BERGWERK\BwrkFluidbox\ViewHelpers\ImageViewHelper
-    }
-}

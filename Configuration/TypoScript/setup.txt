@@ -10,5 +10,5 @@ tt_content.image.20.1.imageLinkWrap {
 }
 
 page = PAGE
-page.includeCSS.bwrkFluidbox_css = EXT:bwrk_fluidbox/Resources/Public/css/bwrkFluidbox.css
-page.includeJSFooter.bwrkFluidbox_js = EXT:bwrk_fluidbox/Resources/Public/js/bwrkFluidbox.js
+page.includeCSS.bwrkFluidbox_css = EXT:bwrk_fluidbox/Resources/Public/css/app.min.css
+page.includeJSFooter.bwrkFluidbox_js = EXT:bwrk_fluidbox/Resources/Public/js/app.min.js
