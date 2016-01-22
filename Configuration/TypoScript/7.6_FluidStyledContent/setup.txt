@@ -1,0 +1,16 @@
+tt_content.image.20.1.imageLinkWrap {
+        JSwindow = 0
+        directImageLink = 1
+        linkParams.ATagParams {
+                dataWrap = data-fluidbox="fluidbox-{field:uid}"
+        }
+
+        width = 1000m
+        height = 800
+}
+
+
+
+page = PAGE
+page.includeCSS.bwrkFluidbox_css = EXT:bwrk_fluidbox/Resources/Public/css/bwrkFluidbox.css
+page.includeJSFooter.bwrkFluidbox_js = EXT:bwrk_fluidbox/Resources/Public/js/bwrkFluidbox.js

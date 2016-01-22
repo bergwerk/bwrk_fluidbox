@@ -29,7 +29,7 @@
 }
 
 .fluidbox-overlay {
-   background-color: @overlay-bg-color;
+   background-color: $overlay-bg-color;
    cursor: pointer;
    cursor: -webkit-zoom-out;
    cursor: -moz-zoom-out;
@@ -40,7 +40,7 @@
    left: 0;
    bottom: 0;
    right: 0;
-   transition: all @transition-duration/2 ease-in-out @transition-duration/2;
+   transition: all $transition-duration/2 ease-in-out $transition-duration/2;
 }
 
 .fluidbox-wrap {
@@ -48,11 +48,11 @@
    background-size: cover;
    margin: 0 auto;
    position: relative;
-   transition: all @transition-duration ease-in-out;
+   transition: all $transition-duration ease-in-out;
 
    /* To prevent flickering, we delay the showing of the image */
    .fluidbox-closed & img {
-      transition: opacity 0s ease-in-out @transition-duration;
+      transition: opacity 0s ease-in-out $transition-duration;
    }
 }
 
@@ -64,8 +64,8 @@
    -moz-transition-property: opacity, -moz-transform;
    -o-transition-property: opacity, -o-transform;
    transition-property: opacity, transform;
-   transition-duration: 0s, @transition-duration;
-   transition-delay: @transition-duration, 0s;
+   transition-duration: 0s, $transition-duration;
+   transition-delay: $transition-duration, 0s;
 
    .fluidbox-opened & {
       transition-delay: 0s, 0s;
@@ -82,10 +82,10 @@
 
    &::before {
       /* You can replace this with any color you want, or even a loading gif if desired */
-      background-color: @animation-bg-color;
+      background-color: $animation-bg-color;
       content: '';
       transform-style: preserve-3d;
-      transition: all @transition-duration ease-in-out;
+      transition: all $transition-duration ease-in-out;
       opacity: 0;
       position: absolute;
       top: 50%;
