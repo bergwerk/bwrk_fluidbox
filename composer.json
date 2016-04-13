@@ -1,0 +1,10 @@
+{
+  "name": "bergwerk/bwrk-cache-fluidbox",
+  "type": "typo3-cms-extension",
+  "description": "Fluidbox for TYPO3",
+  "homepage": "https://www.bergwerk.ag/",
+  "license": ["GPL-2.0+"],
+  "keywords": ["TYPO3 CMS", "fluidbox"],
+  "version": "1.2.1",
+  "minimum-stability":"stable"
+}
