@@ -1,10 +1,33 @@
 {
   "name": "bergwerk/bwrk-fluidbox",
-  "type": "typo3-cms-extension",
-  "description": "Fluidbox for TYPO3",
-  "homepage": "https://www.bergwerk.ag/",
-  "license": ["GPL-2.0+"],
+  "description": "This extension adds the Fluidbox from Terry Mun to your TYPO3",
   "keywords": ["TYPO3 CMS", "fluidbox"],
-  "version": "1.2.1",
-  "minimum-stability":"stable"
+  "version": "1.2.2",
+  "minimum-stability":"stable",
+  "type": "typo3-cms-extension",
+  "homepage": "https://www.bergwerk.ag",
+  "authors": [
+      {
+          "name": "BERGWERK",
+          "role": "Developer",
+          "homepage": "https://www.bergwerk.ag"
+      }
+  ],
+  "license": ["GPL-2.0-or-later"],
+  "require": {
+    "typo3/cms-core": ">7.6"
+  },
+  "replace": {
+    "bwrk_fluidbox": "self.version",
+    "typo3-ter/bwrk_fluidbox": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.0"
+    },
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  }
 }
